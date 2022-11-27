@@ -38,10 +38,18 @@
                 </nav>
                 <ul class="header-nav__right">
                     <li class="nav-item">
-                        <a href="mailto:info@devstudio.com" class="nav-link__right">info@devstudio.com</a>
+                        <a href="mailto:info@devstudio.com" class="nav-link__right">
+                            <svg class="icon" width="16px" height="16px">
+                                <use href="./images/icons.svg#mail"></use>
+                            </svg>  
+                            info@devstudio.com</a>
                     </li>
                     <li class="nav-item">
-                        <a href="tel:+380961111111" class="nav-link__right">+38 096 111 11 11</a>
+                        <a href="tel:+380961111111" class="nav-link__right">
+                            <svg class="icon" width="16" height="16">
+                                <use href="./images/icons.svg#tel"></use>
+                              </svg>
+                            +38 096 111 11 11</a>
                     </li>
                 </ul>
             </div>
@@ -141,30 +149,69 @@
             </section>
         </main>
         <footer>
-            <div class="container">
-                <div class="ft-logo">
-                    <a href="index.html" class="footer-logo">
-                        <span>Web</span>Studio</a>
+            <div class="container footer-wrapper">
+                <div class="footer-wrapper__left">
+                    <div class="ft-logo">
+                        <a href="index.html" class="footer-logo">
+                            <span>Web</span>Studio</a>
+                    </div>
+                    <address>
+                        <ul class="adress-wrapper">
+                            <li class="adress-item">
+                                <a
+                                    href="https://goo.gl/maps/ZHvqtMLKhy8qMB8BA"
+                                    target="_blank"
+                                    rel="nofollow noopener norefferer"
+                                    class="footer-map__link">м. Київ, пр-т Лесі Українки, 26</a>
+                            </li>
+                            <li class="adress-item">
+                                <a 
+                                href="mailto:info@devstudio.com" 
+                                class="footer-email__link">info@devstudio.com</a>
+                            </li>
+                            <li class="adress-item">
+                                <a href="tel:+380961111111" 
+                                class="footer-phone__link">+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                    </address>
                 </div>
-                <address>
-                    <ul class="adress-wrapper">
-                        <li class="adress-item">
-                            <a
-                                href="https://goo.gl/maps/ZHvqtMLKhy8qMB8BA"
-                                target="_blank"
-                                rel="nofollow noopener norefferer"
-                                class="footer-map__link">м. Київ, пр-т Лесі Українки, 26</a>
-                        </li>
-                        <li class="adress-item">
-                            <a href="mailto:info@devstudio.com" class="footer-email__link">info@devstudio.com</a>
-                        </li>
-                        <li class="adress-item">
-                            <a href="tel:+380961111111" class="footer-phone__link">+38 096 111 11 11</a>
-                        </li>
-                    </ul>
-                </address>
+                <div class="footer-wrapper__right">
+                    <div class="footer-soc">
+                        <h2 class="footer-soc__header">Приєднуйтесь</h2>
+                        <ul class="footer-soc__list">
+                            <li>
+                                <a href="#" class="soc-list__links">
+                                    <svg class="icon-join" width="20" height="20">
+                                        <use href="./images/icons.svg#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="soc-list__links">
+                                    <svg class="icon-join" width="20" height="20">
+                                        <use href="./images/icons.svg#twiter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="soc-list__links">
+                                    <svg class="icon-join" width="20" height="20">
+                                        <use href="./images/icons.svg#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="soc-list__links">
+                                    <svg class="icon-join" width="20" height="20">
+                                        <use href="./images/icons.svg#linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </footer>
     </body>
-
 </html>
